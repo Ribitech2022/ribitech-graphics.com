@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ribitech Graphics - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="icon" href="images/Ribitech's Title.png">
+</head>
+<body>
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html"><img src="images/Ribitech Graphics Logo.png" class="ribipic"></a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+     </nav>
+<h1>Contact Us</h1>
+</section>
+
+<!-- contact us -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.938736633251!2d3.875132314299565!3d7.3607645149065934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398db99599ee2f%3A0xfa1375d7b4a3c2a8!2s65%20Imalefalafia%20Street%2C%20200273%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1664391398649!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  
+  <section class="contact-us">
+     <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>NO 65, Ayegbusi,Last Bus Stop, Opposite</h5>
+              <p>Adele, Imalefalafia Street, Ibadan.</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+          <span>
+            <h5>+234 8054467394</h5>
+            <h5>+234 8056446353</h5>
+              <p>Weekdays, 10AM T0 6PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+          <span>
+            <h5>muhammademfive@gmail.com</h5>
+              <p>Email us your query</p>
+            </span>
+        </div>
+      </div>
+      <div class="contact-col" method="post">
+  
+    <form action="form-handler.php">
+  <input type="text" name="name" placeholder="Enter your name" required>
+  <input type="email" name="email" placeholder="Enter Email Address" required>
+  <input type="text" name="subject" placeholder="Enter your subject" required>  
+  <textarea rows="8" name="message" placeholder="Message" required></textarea>
+  <button type="submit" class="hero-btn red-btn">Send Message</button>
+  </form>   
+        
+      </div>
+     </div>
+  </section>
+  
+
+
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>RIBITECH Graphics is a brand under Ribilive Technology that began in the year 2022. We deal in Graphic Design mainly. 
+        <br>Join us for a ride into the world of art and creativity.</p>
+      <div class="icons">
+        <a href="https://web.facebook.com/emfive.graphicdesigns/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.messenger.com/t/100042413299633/"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="https://www.instagram.com/ribitechgraphics2022/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> by Emfive</p>
+</section>
+
+
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+    
+</body>
+</html> 
